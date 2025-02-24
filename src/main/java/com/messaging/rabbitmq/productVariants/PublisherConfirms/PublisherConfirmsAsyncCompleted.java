@@ -9,7 +9,7 @@ import com.rabbitmq.client.Connection;
 
 public class PublisherConfirmsAsyncCompleted {
 
-    private final static String QUEUE_NAME = "queue.xp";
+    private static final String QUEUE_NAME = "queue.xp";
     private static final String HOST = "localhost";
 
     public static void main(String[] args) throws Exception {

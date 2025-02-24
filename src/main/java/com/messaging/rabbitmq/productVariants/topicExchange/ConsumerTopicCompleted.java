@@ -9,8 +9,8 @@ import com.rabbitmq.client.Connection;
 
 public class ConsumerTopicCompleted {
 
-    private final static String QUEUE_NAME = "queue.xp";
-    private final static String EXCHANGE_NAME = "exchange.xp";
+    private static final String QUEUE_NAME = "queue.xp";
+    private static final String EXCHANGE_NAME = "exchange.xp";
     private static final String EXCHANGE_TYPE = "topic";
     private static final String ROUTING_KEY = "routingKeyXp";
     private static final String HOST = "localhost";

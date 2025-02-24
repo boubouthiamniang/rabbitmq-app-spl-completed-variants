@@ -8,7 +8,7 @@ import com.rabbitmq.client.Connection;
 
 public class BasicConsumerCompleted {
 
-    private final static String QUEUE_NAME = "queue.xp";
+    private static final String QUEUE_NAME = "queue.xp";
     private static final String HOST = "localhost";
 
     public static void main(String[] argv) throws Exception {

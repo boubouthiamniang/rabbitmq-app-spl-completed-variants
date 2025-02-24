@@ -7,8 +7,8 @@ import com.rabbitmq.client.Channel;
 
 public class BasicPublisherCompleted {
     
-    private final static String QUEUE_NAME = "queue.xp";
-    private final static String EXCHANGE_NAME = "";
+    private static final String QUEUE_NAME = "queue.xp";
+    private static final String EXCHANGE_NAME = "";
     private static final String HOST = "localhost";
 
 

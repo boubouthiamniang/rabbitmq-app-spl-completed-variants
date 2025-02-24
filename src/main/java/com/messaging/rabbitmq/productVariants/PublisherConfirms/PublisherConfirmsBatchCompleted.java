@@ -9,7 +9,7 @@ import com.rabbitmq.client.Connection;
 
 public class PublisherConfirmsBatchCompleted {
 
-    private final static String QUEUE_NAME = "queue.xp";
+    private static final String QUEUE_NAME = "queue.xp";
     private static final String HOST = "localhost";
     private static final int BATCH_SIZE = 100;
 
